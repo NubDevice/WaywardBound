@@ -1,0 +1,86 @@
+// 
+// file : achilles.rc
+//
+
+#include <Windows.h>
+#include "resource.h"
+
+// application cursor and icon
+IDI_ICON_ENGINE		ICON		"goliathForge.ico"
+IDI_ICON_EDITOR		ICON        "editor.ico"
+
+#define ACHILLES_GLOBAL_TITLE    "NubDevice Engine"
+#define ACHILLES_VERSION         "1.0.0.0"
+#define ACHILLES_PRODUCT_VERSION "1.0"
+#define ACHILLES_MAJOR_VERSION    1
+#define ACHILLES_MINOR_VERSION    0
+#define ACHILLES_REVISION         0
+#define ACHILLES_VENDOR          "Goliath Forge Online"
+#define ACHILLES_COPYRIGHT       "Goliath Forge Online (c) 2020"
+
+// application properties form information
+#define VER_FILETYPE            VFT_APP
+#define VER_FILESUBTYPE         VFT2_UNKNOWN
+#define VER_FILEDESCRIPTION_STR ACHILLES_GLOBAL_TITLE //" for Games" // append anything you want
+#define VER_INTERNALNAME_STR    "NubDevice.exe"
+#define VER_FILEVERSION ACHILLES_MAJOR_VERSION, ACHILLES_MINOR_VERSION, 0, ACHILLES_REVISION
+#define VER_PRODUCTVERSION VER_FILEVERSION
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     VER_FILEVERSION
+PRODUCTVERSION  VER_PRODUCTVERSION
+FILEFLAGSMASK   VS_FFI_FILEFLAGSMASK
+FILEFLAGS       VS_FF_PRIVATEBUILD
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VER_FILETYPE
+FILESUBTYPE     VER_FILESUBTYPE
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"   /* LANG_ENGLISH/SUBLANG_ENGLISH_US, Unicode CP */
+        BEGIN
+			   VALUE "CompanyName",     ACHILLES_VENDOR
+            VALUE "FileDescription", VER_FILEDESCRIPTION_STR 
+            VALUE "FileVersion",     ACHILLES_VERSION
+            VALUE "InternalName",    VER_FILEDESCRIPTION_STR
+	         VALUE "ProductVersion",  ACHILLES_PRODUCT_VERSION
+            VALUE "LegalCopyright",  ACHILLES_COPYRIGHT
+            VALUE "OriginalFilename",VER_INTERNALNAME_STR
+            VALUE "ProductName",     VER_FILEDESCRIPTION_STR
+        END
+    END
+
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 0x04B0
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+STRINGTABLE DISCARDABLE 
+BEGIN
+   //ID_CLASS_PARENT                      "Achilles_Editor_Parent_Class"
+	//ID_CLASS_CHILD_PANE                  "Achilles_Pane_Class"
+	//ID_CLASS_TOOLBAR_MAIN                "Achilles_Toolbar_Class"
+	//ID_CLASS_DLG_EDITOR                  "Achilles_Dialog_Editor"
+	//ID_CLASS_SPLITTER_H                  "Achilles_Splitter_Control_Horizontal_Class"
+	//ID_CLASS_SPLITTER_V                  "Achilles_Splitter_Control_Vertical_Class"
+	//ID_CLASS_MESSAGE_BOX                 "Achilles_Message_Box_Class"
+	//ID_CLASS_INPUT_BOX                   "Achilles_Input_Box_Class"
+	//ID_CLASS_LAB_BOX                     "Achilles_Lab_Box_Class"
+	//ID_CLASS_BUTTON                      "Achilles_Button_Class"
+	//ID_CLASS_TRAY_EDITOR                 "Achilles_Tray_Editor_Class"
+	//ID_CLASS_PROJECT_PROPERTIES          "Achilles_Project_Properties_Class"
+	//ID_CLASS_MENU_SHADER_LAB             "Achilles_Menu_ShaderLab_Class"
+	//ID_CLASS_MENU_SHADER_LAB_TEXTURE 	 "Achilles_Menu_ShaderLab_Texture_Class"
+
+	//ID_CLASS_CONTROL_SHADER_MATERIAL     "Achilles_Control_Shader_Material"
+	//ID_CLASS_CONTROL_SHADER_TEXTURE      "Achilles_Control_Shader_Texture"
+    ID_CAPTION                           ACHILLES_GLOBAL_TITLE
+	//IDS_SDKIEWINDOW                      "SDK_IE_WINDOW"
+END
+
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<shader name="bump">
+		<texture albedo="props/metalBox02_c.png" normal="props/metalBox02_n.png">
+			<mesh name="metalBox2">0.650099 0.000000 0.759066 0.000000 0.000000 1.000000 0.000000 0.000000 -0.759066 0.000000 0.650099 0.000000 -9.886000 0.033333 9.353000 1.000000</mesh>
+		</texture>
+		<texture albedo="pk_gDeck/gfloor_1x1_c.png" normal="pk_gDeck/gfloor_1x1_n.png">
+			<mesh name="deck_floor_01">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</mesh>
+		</texture>
+		<texture albedo="pk_gDeck/gwall_01_c.png" normal="pk_gDeck/gwall_01_n.png">
+			<mesh name="deck_wall_01">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</mesh>
+		</texture>
+		<texture albedo="pk_gDeck/gcolumn_01_c.png" normal="pk_gDeck/gcolumn_01_n.png">
+			<mesh name="deck_column_01">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</mesh>
+		</texture>
+		<texture albedo="actors/teela_c.png" normal="actors/teela_n.png">
+			<mesh name="teela">0.601544 0.000000 -0.798123 0.000000 0.000000 1.000000 0.000000 0.000000 0.798123 0.000000 0.601544 0.000000 -8.373187 0.000000 9.125439 1.000000</mesh>
+		</texture>
+	</shader>
+</scene>
+

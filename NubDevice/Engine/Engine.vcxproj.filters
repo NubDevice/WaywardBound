@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{00aafc94-8e46-43ba-99e4-74bea1e8920c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{8b756ff3-d9de-4d65-8a1a-e3d7b9dadfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{1e3ce9dc-c522-4705-87a7-3cb5e5e34583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sound">
+      <UniqueIdentifier>{378db470-f79a-4ab5-92b9-00315da29378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_state">
+      <UniqueIdentifier>{e822fc17-2b4f-41f2-815c-b376eb1a157a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_state">
+      <UniqueIdentifier>{9841d14c-79f9-48ed-87af-034b6058a01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\loaders">
+      <UniqueIdentifier>{a59bd532-d312-454d-89fe-38afbd6c615f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\loaders">
+      <UniqueIdentifier>{5f8d9110-eb6f-40fc-8e9f-a922922ac477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\effects">
+      <UniqueIdentifier>{faf8f5eb-c556-4fa8-8f43-38f4cd5bbd8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effects">
+      <UniqueIdentifier>{2ea87845-1af3-4344-a542-1df948c32069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scenes">
+      <UniqueIdentifier>{269122d7-80f9-4c7b-8808-231f3183a5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_state\game">
+      <UniqueIdentifier>{870adf5a-f284-450b-8910-2d909109db08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{1dbcf6bf-ae73-4012-8565-d506845ea6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{75283bc0-0d16-46d5-ab60-6e4799846809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_state\game">
+      <UniqueIdentifier>{0e103fea-604f-45c6-b921-77b3788f1bab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\achilles.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\button.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gui.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state\state_manager.h">
+      <Filter>Header Files\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state\menu_state.h">
+      <Filter>Header Files\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state\game_state.h">
+      <Filter>Header Files\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state\base_state.h">
+      <Filter>Header Files\game_state</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\mesh_obj.h">
+      <Filter>Header Files\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\indexedModel.h">
+      <Filter>Header Files\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\mesh_dae.h">
+      <Filter>Header Files\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="effects\shadow_directional.h">
+      <Filter>Header Files\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\line.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\gizmo.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="loaders\scene.h">
+      <Filter>Header Files\loaders</Filter>
+    </ClInclude>
+    <ClInclude Include="game_state\game\config_input.h">
+      <Filter>Header Files\game_state\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gui.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libraries\al\waves.cpp">
+      <Filter>Source Files\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="game_state\state_manager.cpp">
+      <Filter>Source Files\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_state\menu_state.cpp">
+      <Filter>Source Files\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="game_state\game_state.cpp">
+      <Filter>Source Files\game_state</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\button.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\mesh_obj.cpp">
+      <Filter>Source Files\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="loaders\mesh_dae.cpp">
+      <Filter>Source Files\loaders</Filter>
+    </ClCompile>
+    <ClCompile Include="effects\shadow_directional.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\gizmo.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="game_state\game\config_input.cpp">
+      <Filter>Source Files\game_state\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\_bin\_data\Shader\bump.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\bump.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\default.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\default.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\shadow_directional.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\shadow_directional.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\gizmo.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\gizmo.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\bkg.fs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="..\..\_bin\_data\Shader\bkg.vs">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="effects\TODO.txt">
+      <Filter>Source Files\effects</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\_bin\_data\Scenes\mechsylvania.xml">
+      <Filter>Resource Files\Scenes</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

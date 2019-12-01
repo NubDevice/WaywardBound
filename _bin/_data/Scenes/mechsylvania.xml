@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene>
+	<shader name="bump">
+		<texture albedo="props/metalBox02_c.png" normal="props/metalBox02_n.png">
+			<mesh name="metalBox2">0.650099 0.000000 0.759066 0.000000 0.000000 1.000000 0.000000 0.000000 -0.759066 0.000000 0.650099 0.000000 1.414041 0.033333 1.056764 1.000000</mesh>
+		</texture>
+		<texture albedo="pk_gDeck/gfloor_1x1_c.png" normal="pk_gDeck/gfloor_1x1_n.png">
+			<mesh name="deck_floor_01">1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000</mesh>
+		</texture>
+	</shader>
+</scene>
+
